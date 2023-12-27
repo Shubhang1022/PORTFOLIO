@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 600px;
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: url(pexels-pixabay-531880.jpg) no-repeat center center/cover;
+        }
+
+        .box {
+            height: 398px;
+            width: 350px;
+            /* border: 2px solid red;
+            background-color: white; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .box form {
+            margin-bottom: 166px;
+            width: 379px;
+        }
+
+        .box form span {
+            color: white;
+        }
+
+        .email {
+            margin-left: 110px;
+            border-radius: 6px;
+            /* display: none; */
+            margin-bottom: 23px;
+            background-color: transparent;
+            width: 178px;
+        }
+
+        .password {
+            border-radius: 6px;
+            font-weight: bold;
+            /* display: none; */
+            background-color: transparent;
+            margin-left: 11px;
+
+        }
+
+        .signup {
+            background-color: transparent;
+            border-radius: 7px;
+            width: 175px;
+            margin-top: 25px;
+        }
+
+        .submit {
+            margin-left: 126px;
+            margin-top: 23px;
+            padding: 5px 21px 7px 22px;
+            border-radius: 10px;
+            color: white;
+            background-color: rgba(121, 90, 0, 0.199);
+        }
+
+        .submit:hover {
+            color: white;
+            background-color: red;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> <u>SIGN UP</u></h1>
+        <div class="box">
+            <form action="">
+                <span>EMAIL:</span> <input type="email" placeholder="ENTER YOUR EMAIL" class="email " required>
+                <br>
+                <br>
+                <span> CREATE PASSOWRD:</span> <input type="password" placeholder="CREATE YOUR PASSWORD"
+                    class="password" required>
+                <br>
+                <br>
+                <span> CONFIRM PASSOWRD:</span> <input type="password" placeholder="CONFIRM YOUR PASSWORD"
+                    class="signup" required>
+                <br>
+                <br>
+                <input type="submit" value="SIGN UP" class="submit">
+                
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

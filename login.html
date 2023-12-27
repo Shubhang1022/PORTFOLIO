@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            height: 600px;
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: url(pexels-pixabay-531880.jpg) no-repeat center center/cover;
+        }
+
+        .box {
+            height: 398px;
+            width: 350px;
+            /* border: 2px solid red;
+            background-color: white; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .box form {
+            margin-bottom: 166px;
+        }
+        .box form span{
+            color: white;
+        }
+        .email {
+            margin-left: 35px;
+            border-radius: 6px;
+            /* display: none; */
+            margin-bottom: 23px;
+            background-color: transparent;
+        }
+
+        .password {
+            border-radius: 6px;
+            font-weight: bold;
+            /* display: none; */
+            background-color: transparent;
+            
+        }
+
+        .submit {
+            margin-left: 92px;
+            margin-top: 23px;
+            padding: 5px 21px 7px 22px;
+            border-radius: 10px;
+            color: rgb(26, 8, 8);
+            background-color: rgba(121, 90, 0, 0.199);
+        }
+        .submit:hover{
+            color: white;
+            background-color: red;
+            cursor: pointer;
+        }
+        .sign{
+            display: flex;
+            align-items: center;
+            margin-top: 23px;
+            color: white;
+        }
+        .sign a{
+            text-decoration: none;
+            color: black;
+        }
+        .sign a:hover{
+            color: rgb(230, 10, 10);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> <u>SIGN IN</u></h1>
+        <div class="box">
+            <form action="">
+               <span>EMAIL:</span>  <input type="email" placeholder="ENTER YOUR EMAIL" class="email " required>
+                <br>
+                <br>
+                <span>PASSOWRD:</span> <input type="password" placeholder="ENTER YOUR PASSWORD" class="password" required>
+                <br><br>
+                <input type="submit" value="SIGN IN" class="submit">
+                <div class="sign">
+                    DON'T HAVE AN ACCOUNT?<a href="signup.html">SIGN UP</a>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+</body>
+
+</html>

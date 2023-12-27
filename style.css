@@ -1,0 +1,329 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+
+
+/* NAVIGATION */
+#navbar img {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 68px;
+}
+
+#navbar h1 {
+    color: white;
+    /* margin-left: 200px; */
+    /* margin-left: 100px; */
+}
+
+#navbar h1 span {
+    color: crimson;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-right:11px; */
+    /* width: 1217px; */
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(65, 51, 51);
+    height: 100%;
+    width: 1263px;
+    opacity: .7;
+    z-index: -1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* margin-right: 54px; */
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 3px 22px;
+    color: red;
+}
+
+#navbar ul li a:hover {
+    color: white;
+}
+
+
+
+
+/* HOME */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 368px;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-top: 200px;
+    margin-right: 450px;
+    flex-wrap: wrap;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(photo-1461749280684-dccba630e2f6.avif) no-repeat center center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width:1263px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h2 {
+    color: rgba(248, 242, 242, 0.989);
+
+}
+
+#home h2 span {
+    color: crimson;
+}
+
+#home a {
+    text-decoration: none;
+    border: 2px solid crimson;
+    padding: 13px;
+    color: crimson;
+    margin-top: 23px;
+    border-radius: 12px;
+    margin-right: 283px;
+}
+
+#home a:hover {
+    color: white;
+    background-color: crimson;
+}
+
+
+
+
+/* PROJECTS */
+#projects {
+    margin-top: 2px;
+    height: 722px;
+    width: 1263px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: url(desktop-wallpaper-abstract-login-page-thumbnail.jpg) no-repeat center center/cover;
+    text-shadow: 2px 0px 6px #26e726;
+
+}
+
+#projects h1 {
+    margin-bottom: 226px;
+    color: rgb(171, 232, 48);
+    font-size: 2rem;
+    
+}
+
+.box {
+    border: 6px solid crimson;
+    height: 300px;
+    width: 209px;
+    margin-bottom: 100px;
+    margin-top: -64px;
+    border-radius: 12px;
+   box-shadow: rgb(151, 151, 219) 1px 2px 19px;
+   text-shadow: 2px 0px 6px #26e726;
+}
+
+.box h3 {
+    margin-left: 44px;
+    color: wheat;
+}
+
+.box img {
+    object-fit: cover;
+    height: 220px;
+    width: 209px;
+}
+
+.box a {
+    text-decoration: none;
+    margin-left: 85px;
+    color: red;
+}
+
+.box a:hover {
+    color: white;
+}
+
+.box a img {
+    height: 13px;
+    width: 18px;
+}
+
+
+
+
+
+/* ABOUT */
+#about {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 600px;
+    width: 1263px;
+    background: url(desktop-wallpaper-abstract-login-page-thumbnail.jpg) no-repeat center center/cover;
+    z-index: -1;
+    text-shadow: 3px 1px 2px crimson;
+}
+
+#about h1 {
+    color: #dcee07;
+    margin-right: 105px;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 183px;
+    flex-wrap: wrap;
+    
+}
+
+.me span {
+    width: 20%;
+    height: 350px;
+    background: url(photo-1553095066-5014bc7b7f2d.avif) no-repeat center center/cover;
+    color: white;
+    border-radius: 12px;
+    font-family: initial;
+    box-shadow: rgb(151, 151, 219) 1px 2px 19px;
+}
+
+.me p {
+    margin: 2px;
+    width: 30%;
+    height: 350px;
+    background: url(photo-1553095066-5014bc7b7f2d.avif) no-repeat center center/cover;
+    color: white;
+    border-radius: 12px;
+    font-family: initial;
+    box-shadow: rgb(151, 151, 219) 1px 2px 19px;
+}
+
+
+
+
+/* CONTACT */
+#contact {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 400px;
+    width: 1263px;
+    background: url(mix-office-supplies-gadgets-wooden-desk-with-text_93675-141818.avif) no-repeat center center/cover;
+    z-index:-1;
+}
+#contact img {
+    margin-top: 83px;
+}
+#contact span {
+    margin-top: 9px;
+    padding: 13px;
+}
+
+
+
+
+/* COMMENT */
+#comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width:1263px;
+}
+
+.comment-main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-main {
+    width: 40%;
+}
+
+.message {
+    height: 150px;
+    border-radius: 3px;
+}
+
+.submit {
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-radius: 13px;
+    background-color: rgb(248, 14, 14);
+    color: wheat;
+}
+
+.submit:hover {
+    color: brown;
+    background-color: azure;
+}
+@media screen and(min-width:1200px){
+    .comment-main{
+        width:60%;
+        }
+        .comment-main form{
+            width:70%;
+            }
+            #navbar{
+                display:BLOCK;
+                position: initial;
+                height: auto;
+                width: fit-content;
+                background-color: transparent;
+            }
+            #navbar ul li{
+                display: inline-block;
+            }
+            #navbar ul li a{
+                font-size: 1.8rem;
+            }
+            #navbar ul li a::after{
+                display: none;
+            }
+
+}
